@@ -1,0 +1,202 @@
+<html>
+	<head>
+
+		<link rel="stylesheet" type="text/css" href="styles/estilo.css">
+		
+	</head>
+	<body>
+
+		<h2>Arizone</h2>
+		<ul>
+		  <li><a href="index.html"> Novedades </a></li>
+		  <li><a href="index (1).html">Top10 </a></li>
+		  <li><a href="index (2).html"> Música </a></li>
+		  <li><a href="index (3).html"> Youtube </a></li>
+		</ul>
+		
+
+
+		<div class="noticias">
+
+		<button id="boton1" class="siguiente" onclick="siguiente1()">Siguiente</button>
+
+		<button id="boton2" class="siguiente" onclick="siguiente2()">Siguiente</button>
+
+		<button id="boton3" class="siguiente" onclick="siguiente3()">Siguiente</button>
+
+		<button id="boton4" class="siguiente" onclick="siguiente4()">Siguiente</button>
+
+		<button id="boton5" class="siguiente" onclick="siguiente5()">Siguiente</button>
+
+		<a href="https://los40.com/los40/2019/11/07/musica/1573162080_859024.html">
+		<div id="noticia1" class="noticia">
+	     	<p title="Parrafo de colores" style="font-size: 35;color:black">¿Qué es Rave?</p>
+	     	<img src="https://www.rivermendhealth.com/wp-content/uploads/2016/02/tumblr_static_filename_640_v2.png" alt="Música" height="150px">
+
+	    </div></a>
+	     <br>
+	    <a href="https://los40.com/los40/2019/11/08/videos/1573227439_697894.html">
+		<div id="noticia2" class="noticia">
+	     	<p title="Parrafo de colores" style="font-size: 30;color:black">Así fue la transmisión directa de los mtv awards 2019 Sevilla</p>
+	     	<img src="https://static1-sevilla.abc.es/media/sevilla/2019/09/30/s/EMA_ABC_620x349-kTdC--620x349@abc.png" alt="Música" height="100px">
+ 		 </div></a>
+		 <br>
+		<a href="https://los40.com/los40/2019/11/19/andaya/1574153866_522203.html">
+		<div id="noticia3" class="noticia">
+	     	<p title="Parrafo de colores" style="font-size: 30;color:black">Bases legales del concurso de Coldplay en Londrés. </p>
+	     	<img src="https://i1.wp.com/www.dominicanos.nyc/wp-content/uploads/2019/11/bases-legales-del-concurso-de-coldplay-en-londres.jpg?fit=470%2C470&ssl=1" alt="Música" height="100px">
+
+		 </div></a>
+
+		<a href="https://los40.com/los40/2019/11/09/videos/1573318744_639771.html">
+		<div id="noticia4" class="noticia">
+	     	<p title="Parrafo de colores" style="font-size: 30;color:black"> Revive la actuación de Rosalía en los Mtv Awards</p>
+	     	<img src="https://cdnb.20m.es/sites/124/2019/11/Rosalia-MTV-e1572825223684-620x371.jpeg" alt="Música" height="100px">
+		</div></a>
+		<br>
+		<a href="https://los40.com/los40/2019/11/13/actualidad/1573640580_607140.html">
+		<div id="noticia5" class="noticia">
+	     	<p title="Parrafo de colores" style="font-size: 30;color:black"> Ester Expósito se pronuncia sobre su boda con Anitta</p>
+	     	<img src="http://img2.rtve.es/n/1989368?w=400&preview=1573309274791.jpg" alt="Música" height="100px">
+		</div></a>
+		<br>
+		<div id="noticia6">
+		<a href="https://los40.com/los40/2019/11/22/del40al1/1574420611_503611.html">
+		<div  class="noticia">
+	     	<p title="Parrafo de colores" style="font-size: 30;color:black"> Tones and I,el hitazo del momemto.
+	     	</p>
+	     	<img src="https://mediatop.los40.com/toplos40/imagenes/201911/22/20191122154640714_1574434373_asset_still.png" alt="Música" height="100px">
+		</div></a>
+		</div>
+	</div>
+		<br>
+
+
+	
+
+	<button id="boton11" class="anterior" onclick="anterior1()">Anterior</button>
+
+	<button id="boton22" class="anterior" onclick="anterior2()">Anterior</button>
+
+	<button id="boton33" class="anterior" onclick="anterior3()">Anterior</button>
+
+	<button id="boton44" class="anterior" onclick="anterior4()">Anterior</button>
+
+	<button id="boton55" class="anterior" onclick="anterior5()">Anterior</button>
+
+	<script>
+		function siguiente1() 
+		{
+ 			document.getElementById('noticia1').style.display="none";
+ 			document.getElementById('noticia2').style.display="block";
+
+ 			document.getElementById('boton1').style.display="none";
+ 			document.getElementById('boton2').style.display="block";
+ 			document.getElementById('boton11').style.display="block";
+		}
+
+		function siguiente2() 
+		{
+ 			document.getElementById('noticia2').style.display="none";
+ 			document.getElementById('noticia3').style.display="block";
+
+ 			document.getElementById('boton2').style.display="none";
+ 			document.getElementById('boton3').style.display="block";
+ 			document.getElementById('boton11').style.display="none";
+ 			document.getElementById('boton22').style.display="block";
+		}
+
+		function siguiente3() 
+		{
+ 			document.getElementById('noticia3').style.display="none";
+ 			document.getElementById('noticia4').style.display="block";
+
+ 			document.getElementById('boton3').style.display="none";
+ 			document.getElementById('boton4').style.display="block";
+ 			document.getElementById('boton33').style.display="block";
+ 			document.getElementById('boton22').style.display="none";
+		}
+
+		function siguiente4() 
+		{
+ 			document.getElementById('noticia4').style.display="none";
+ 			document.getElementById('noticia5').style.display="block";
+
+ 			document.getElementById('boton4').style.display="none";
+ 			document.getElementById('boton5').style.display="block";
+ 			document.getElementById('boton44').style.display="block";
+ 			document.getElementById('boton33').style.display="none";
+		}
+
+		function siguiente5() 
+		{
+ 			document.getElementById('noticia5').style.display="none";
+ 			document.getElementById('noticia6').style.display="block";
+
+ 			document.getElementById('boton5').style.display="none";
+ 			document.getElementById('boton55').style.display="block";
+ 			document.getElementById('boton44').style.display="none";
+		}
+
+		function anterior1() 
+		{
+ 			document.getElementById('noticia2').style.display="none";
+ 			document.getElementById('noticia1').style.display="block";
+
+ 			document.getElementById('boton2').style.display="none";
+ 			document.getElementById('boton1').style.display="block";
+ 			document.getElementById('boton11').style.display="none";
+		}
+
+		function anterior2() 
+		{
+ 			document.getElementById('noticia3').style.display="none";
+ 			document.getElementById('noticia2').style.display="block";
+
+ 			document.getElementById('boton3').style.display="none";
+ 			document.getElementById('boton2').style.display="block";
+ 			document.getElementById('boton22').style.display="none";
+ 			document.getElementById('boton11').style.display="block";
+ 			
+		}
+
+		function anterior3() 
+		{
+ 			document.getElementById('noticia4').style.display="none";
+ 			document.getElementById('noticia3').style.display="block";
+
+ 			document.getElementById('boton4').style.display="none";
+ 			document.getElementById('boton3').style.display="block";
+ 			document.getElementById('boton33').style.display="none";
+ 			document.getElementById('boton22').style.display="block";
+ 			
+		}
+
+		function anterior4() 
+		{
+ 			document.getElementById('noticia5').style.display="none";
+ 			document.getElementById('noticia4').style.display="block";
+
+ 			document.getElementById('boton5').style.display="none";
+ 			document.getElementById('boton4').style.display="block";
+ 			document.getElementById('boton44').style.display="none";
+ 			document.getElementById('boton33').style.display="block";
+ 		
+ 		}
+
+
+ 		function anterior5() 
+		{
+ 			document.getElementById('noticia6').style.display="none";
+ 			document.getElementById('noticia5').style.display="block";
+
+ 			document.getElementById('boton5').style.display="block";
+ 			document.getElementById('boton55').style.display="none";
+ 			document.getElementById('boton44').style.display="block";
+		}
+
+ 			
+		</script>
+	    
+	</body>
+</html>
