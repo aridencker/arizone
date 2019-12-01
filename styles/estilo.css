@@ -1,11 +1,5 @@
 body {
-  background-color: #FEF8F8  ;
-}
-h1 { 
-  color: #A073E4;
-}
-p { 
-  color: #E4C673 ;
+  background-image:url("https://i0.wp.com/salacopernico.es/wp-content/uploads/2017/07/fondo-madera-negra.jpg?ssl=1");
 }
 
 ul {
@@ -42,23 +36,14 @@ a{
 	text-decoration: none;
 }
 .noticia{
-	width: 75%;
+	width: 45%;
 	text-align: center;
-	padding: 15px;
-	background: #FFFFFF;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.noticias{
-	width: 40%;
-	margin:auto; 
+	padding: 35px;
+	background: #585858;
 }
 
 .videos{
- }
+}
 
 .video{
   background-color: black;
@@ -66,32 +51,41 @@ a{
   color: white;
   margin: 20px;
   padding: 20px;
+  line-height: 0px;
 }
+
 .video img{
   margin-top: -200px;
-  margin-left: 300px;
+  margin-right: 700px;
+  line-height: 0px;
   
 }
 
 .video iframe{
-	margin:15px;
+	margin-top:15px;
+  margin-left: 420px;
 }
 
 #noticia1{
   display: block;
 }
+
 #noticia2{
   display: none;
 }
+
 #noticia3{
   display: none;
 }
+
 #noticia4{
   display: none;
 }
+
 #noticia5{
   display: none;
 }
+
 #noticia6{
   display: none;
 }
@@ -99,15 +93,19 @@ a{
 #boton1{
   display: block;
 }
+
 #boton2{
   display: none;
 }
+
 #boton3{
   display: none;
 }
+
 #boton4{
   display: none;
 }
+
 #boton5{
   display: none;
 }
@@ -115,26 +113,57 @@ a{
 #boton11{
   display: none;
 }
+
 #boton22{
   display: none;
 }
+
 #boton33{
   display: none;
 }
+
 #boton44{
   display: none;
 }
+
 #boton55{
   display: none;
 }
 
-.siguiente{
-  float: right;
-  margin-right: 25px
-}
-
 .anterior{
   float: left;
-  margin-left: 150px
-  
+  margin-left: 65px;
+  margin-top: -130px;
 }
+
+.siguiente {
+    float: right;
+    margin-right: 295px;
+    margin-top:330px;
+}
+ 
+.script{
+ display:none;
+}
+
+.correo{
+  background-color: black;
+  text-align: center;
+  color: white;
+  margin: 50px;
+  padding: 50px;
+}
+
+h1{
+  margin-top:-55px;
+  margin-bottom: 150px;
+  line-height: 0%;
+  font-size: 100px;
+  margin-right: 400px;
+}
+
+p{
+  font-size: 25px;
+  margin-left: 75px;
+}
+
